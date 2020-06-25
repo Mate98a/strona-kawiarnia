@@ -1,0 +1,164 @@
+*
+{
+    
+    font-family: 'Righteous', cursive;
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+header
+{
+    position:fixed;
+    width:100%;
+    height:80px;
+    padding:0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#111;
+    z-index:1000;
+}
+header .logo{
+    color:#fff;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+ 
+}
+header ul{
+    position: relative;
+    display:flex;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    padding: 5px 10px;
+    color:#fff;
+    display: inline-block;
+    text-decoration: none;
+    cursor:pointer;
+}
+header ul li a.active,
+header ul li a:hover{
+    background: #205aff;
+}
+
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+    padding:150px 100px 100px;
+    
+}
+section img{
+    max-width: 320px;
+    margin-left: 30px;
+}
+#onass{
+    margin-left: 0px;
+    margin-right: 20px;
+    max-width: 400px;
+}
+section h2{
+    font-size: 2.5em;
+    text-transform:uppercase ;
+    color:#ffdf00;
+}section h3{
+    color:#ffdf00;
+}
+section p{
+    font-size: 18px;
+    
+}
+section a{
+    display: inline-block;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    background: #6c3513;
+    color:#fff;
+    margin-top: 20px;
+}
+section:nth-child(odd){
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    /*background: #6c3513;
+    background: #dac6b4;
+    background: #c88770;*/
+    background: #d59870;
+    color: #fff;
+    
+}section:nth-child(even){
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("tlo.jpg");
+    background-attachment: fixed;
+    color: white;
+    
+    
+}
+#services img{
+    width:450px ;
+    height:350px;
+    max-width: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#drugi{
+    text-align: center;
+    justify-content: center;
+}
+#drugi h2{
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+}
+
+#drugi h3{
+    color:#ffdf00;
+}
+form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	
+	padding: 35px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: center;
+    
+}
+input{
+	width: 100%;
+	font-size: 15px;
+	margin: 5px auto;
+	padding: 5px 5px 5px 20px;
+}
+textarea{
+    width: 100%;
+	font-size: 15px;
+	margin: 5px auto;
+	padding: 5px 5px 5px 20px;
+}
+
+
+
+
+
+
+
+
