@@ -8,10 +8,10 @@
     text[1]="<h3>Caffe Latte - 16 zł</h3>Wyjątkowo mleczna i łagodna kawa podawana w wysokich szklankach podbiła nie tylko włoskie serca, ale zyskała popularność wśród ludzi na całym świecie. Nie potrafię wymienić kawiarni, która nie serwuje tego klasyka.  Idealnie komponuje się z różnymi syropami smakowymi i posypkami, dlatego może być sposobem na słodkie co nieco.";
     text[2]="<h3>Lungo i Americano - 11 zł</h3>oba rodzaje opierają się na espresso z większą ilością wody. Różnią się natomiast objętością i sposobem dodania wody. „Lungo” to z włoskiego „długo”, a nazwa wywodzi się od „przedłużonego” espresso, czyli charakterystycznego sposobu parzenia.Taka kawa jest delikatniejsza w smaku, ale wciąż aromatyczna.";
     text[3]="<h3>Cafe frappe - 19 zł</h3>Kawowe frappe najlepiej smakują podawane w wysokich szklankach i sączone przez kolorowe słomki do napojów.  Szklanki do klasycznego frappe nie muszą być wykonane z grubego szkła, ponieważ kawa serwowana jest na zimno i nie musimy obawiać się o poparzenie. Z tego też powodu zbędne będzie uszko.";
-	obraz[0] = 'kawa1.jpg';
-	obraz[1] = 'kawa2.jpg';
-	obraz[2] = 'kawa3.jpg';
-	obraz[3] = 'kawa4.jpg';
+	obraz[0] = 'src/kawa1.jpg';
+	obraz[1] = 'src/kawa2.jpg';
+	obraz[2] = 'src/kawa3.jpg';
+	obraz[3] = 'src/kawa4.jpg';
 
 	
 	function zmien(){

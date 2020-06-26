@@ -5,8 +5,8 @@
     <title>Kawiarnia</title>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='style.css'>
-    <script type="text/javascript" src="skrypt.js"></script>
+    <link rel='stylesheet' href='css/style.css'>
+    <script type="text/javascript" src="scripts/skrypt.js"></script>
     <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
 </head>
 <body>
@@ -36,7 +36,7 @@
 
     </section>
     <section id="about">
-        <img src="onas.png" id="onass">
+        <img src="src/onas.png" id="onass">
         <div>
             <h2>O nas</h2>
             <p>
@@ -93,9 +93,6 @@ Nasza kawiarnia to wyjątkowy nastrój i klimat, idealny zarówno na smaczne śn
                 </form>
                 
                 <script language="JavaScript">
-                // Code for validating the form
-                // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-                // for details
                 var frmvalidator  = new Validator("contactform");
                 frmvalidator.addValidation("name","req","Wpisz prawidłowe imię"); 
                 frmvalidator.addValidation("email","req","Wpisz e-mail"); 
